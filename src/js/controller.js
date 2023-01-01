@@ -10,7 +10,7 @@ import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 
 // if (module.hot) {
-//   module.hot.accept();
+//   hot.accept();
 // }
 
 const controlRecipes = async function () {
