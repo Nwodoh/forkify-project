@@ -13,6 +13,11 @@ import { MODAL_CLOSE_SEC } from './config.js';
 //   hot.accept();
 // }
 
+const consoleFunction = function () {
+  console.log('Welcome to my website');
+};
+consoleFunction();
+
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
