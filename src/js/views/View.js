@@ -53,7 +53,7 @@ class View {
   renderSpinner() {
     const markup = `<div class="spinner">
       <svg>
-        <use href="src/img/icons.svg#icon-loader"></use>
+        <use href="/icons.c14567a0.svg#icon-loader"></use>
       </svg>
     </div>`;
 
@@ -66,7 +66,7 @@ class View {
       <div class="error">
           <div>
               <svg>
-                  <use href="src/img/icons.svg#icon-alert-triangle"></use>
+                  <use href="/icons.c14567a0.svg#icon-alert-triangle"></use>
               </svg>
           </div>
           <p>${message}</p>
@@ -81,7 +81,7 @@ class View {
       <div class="message">
           <div>
               <svg>
-                  <use href="src/img/icons.svg#icon-smile"></use>
+                  <use href="/icons.c14567a0.svg#icon-smile"></use>
               </svg>
           </div>
           <p>${message}</p>

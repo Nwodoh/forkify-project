@@ -45,11 +45,7 @@ class RecipeView extends View {
   <div class="recipe__details">
     <div class="recipe__info">
       <svg class="recipe__info-icon">
-<<<<<<< HEAD
         <use href="/icons.c14567a0.svg#icon-clock"></use>
-=======
-        <use href="src/img/icons.svg#icon-clock"></use>
->>>>>>> 25cf386c93c621fa011c7d099d17c919da0826cd
       </svg>
       <span class="recipe__info-data recipe__info-data--minutes">${
         this._data.cookingTime
@@ -58,11 +54,7 @@ class RecipeView extends View {
     </div>
     <div class="recipe__info">
       <svg class="recipe__info-icon">
-<<<<<<< HEAD
         <use href="/icons.c14567a0.svg#icon-users"></use>
-=======
-        <use href="/src/img/icons.svg#icon-users"></use>
->>>>>>> 25cf386c93c621fa011c7d099d17c919da0826cd
       </svg>
       <span class="recipe__info-data recipe__info-data--people">${
         this._data.servings
@@ -74,22 +66,14 @@ class RecipeView extends View {
           +this._data.servings - 1
         }">
           <svg>
-<<<<<<< HEAD
             <use href="/icons.c14567a0.svg#icon-minus-circle"></use>
-=======
-            <use href="/src/img/icons.svg#icon-minus-circle"></use>
->>>>>>> 25cf386c93c621fa011c7d099d17c919da0826cd
           </svg>
         </button>
         <button class="btn--tiny btn--update-servings" data-update-to="${
           +this._data.servings + 1
         }">
           <svg>
-<<<<<<< HEAD
             <use href="/icons.c14567a0.svg#icon-plus-circle"></use>
-=======
-            <use href="src/img/icons.svg#icon-plus-circle"></use>
->>>>>>> 25cf386c93c621fa011c7d099d17c919da0826cd
           </svg>
         </button>
       </div>

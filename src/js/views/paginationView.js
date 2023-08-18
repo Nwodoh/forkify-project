@@ -27,7 +27,7 @@ class PaginationView extends View {
       }" class="btn--inline pagination__btn--next">
       <span>Page ${curPage + 1}</span>
       <svg class="search__icon">
-        <use href="src/img/icons.svg#icon-arrow-right"></use>
+        <use href="/icons.c14567a0.svg#icon-arrow-right"></use>
       </svg>
     </button>`;
     }
@@ -39,7 +39,7 @@ class PaginationView extends View {
         curPage - 1
       }"class="btn--inline pagination__btn--prev">
         <svg class="search__icon">
-          <use href="src/img/icons.svg#icon-arrow-left"></use>
+          <use href="/icons.c14567a0.svg#icon-arrow-left"></use>
         </svg>
         <span>Page ${curPage - 1}</span>
       </button>`;
@@ -52,7 +52,7 @@ class PaginationView extends View {
         curPage - 1
       }" class="btn--inline pagination__btn--prev">
         <svg class="search__icon">
-          <use href="src/img/icons.svg#icon-arrow-left"></use>
+          <use href="/icons.c14567a0.svg#icon-arrow-left"></use>
         </svg>
         <span>Page ${curPage - 1}</span>
       </button>
@@ -61,7 +61,7 @@ class PaginationView extends View {
       }" class="btn--inline pagination__btn--next">
       <span>Page ${curPage + 1}</span>
       <svg class="search__icon">
-        <use href="src/img/icons.svg#icon-arrow-right"></use>
+        <use href="/icons.c14567a0.svg#icon-arrow-right"></use>
       </svg>
     </button>`;
     }
