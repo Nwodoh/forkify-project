@@ -1,22 +1,13 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
+// import './core-js/stable';
+// import './regenerator-runtime/runtime';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
-
-// if (module.hot) {
-//   hot.accept();
-// }
-
-const consoleFunction = function () {
-  console.log('Welcome to my website');
-};
-consoleFunction();
 
 const controlRecipes = async function () {
   try {
@@ -36,7 +27,7 @@ const controlRecipes = async function () {
     // #2. Rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
-    // recipeView.renderError(err);
+    recipeView.renderError(err);
   }
 };
 
@@ -55,6 +46,7 @@ const controlSearchRecipe = async function () {
   }
 };
 
+console.log();
 const controlPagination = function (gotoPage) {
   // 1. render NEW results
   resultsView.render(model.getSearchResultsPerPage(gotoPage));

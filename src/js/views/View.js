@@ -1,4 +1,4 @@
-import icons from 'url:../../img/icons.svg';
+// import icons from 'url:../../img/icons.svg';
 
 class View {
   _data;
@@ -17,7 +17,6 @@ class View {
       return this.renderError();
 
     this._data = data;
-    // console.log(this._data);
     const markup = this._generateMarkup();
 
     if (!render) return markup;
@@ -54,7 +53,7 @@ class View {
   renderSpinner() {
     const markup = `<div class="spinner">
       <svg>
-        <use href="${icons}#icon-loader"></use>
+        <use href="src/img/icons.svg#icon-loader"></use>
       </svg>
     </div>`;
 
@@ -67,7 +66,7 @@ class View {
       <div class="error">
           <div>
               <svg>
-                  <use href="${icons}#icon-alert-triangle"></use>
+                  <use href="src/img/icons.svg#icon-alert-triangle"></use>
               </svg>
           </div>
           <p>${message}</p>
@@ -82,7 +81,7 @@ class View {
       <div class="message">
           <div>
               <svg>
-                  <use href="${icons}#icon-smile"></use>
+                  <use href="src/img/icons.svg#icon-smile"></use>
               </svg>
           </div>
           <p>${message}</p>
